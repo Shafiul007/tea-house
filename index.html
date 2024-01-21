@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8280d9cb0b.js" crossorigin="anonymous"></script>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -184,8 +185,51 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="lg:p-20 bg-gradient-to-r from-red-100 to-cyan-100 p-10">
+        <section class="flex flex-col justify-center md:flex-row md:justify-between items-center mb-5 lg:mb-16">
+            <img class="mb-4" src="./image/cup.png" alt="">
+            <div class="flex items-center">
+                <h2 class="text-2xl font-thin">Ready to get strated?</h2>
+                <button class="btn btn-primary bg-red-700 border-[0px] ml-3">Get Started</button>
+            </div>
+        </section>
+        <section class="footer  text-base-content ">
+            <aside>
+                <h1 class="font-bold text-2xl mb-2">Quick Links</h1>
+                <a class="link link-hover" href="#">Home</a>
+                <a class="link link-hover" href="#">About us</a>
+                <a class="link link-hover" href="#">Insurance</a>
+                <a class="link link-hover" href="#">Privacy Policy</a>
+            </aside> 
+            <nav>
+              <header class="text-2xl font-bold text-black">Our Services</header> 
+              <a class="link link-hover">Life Insurance</a>
+              <a class="link link-hover">Car Insurance</a>
+              <a class="link link-hover">Health Insurance</a>
+              <a class="link link-hover">House Insurance</a>
+            </nav> 
+            <nav>
+              <header class="text-2xl font-bold text-black">Help</header> 
+             
+              <a class="link link-hover">FAQs</a>
+              <a class="link link-hover">Contact Us</a>
+              
+            </nav> 
+            <nav class="space-y-5">
+              <header class="text-2xl font-bold text-black">Subscribe to our <br> newsletter</header> 
+              <label for="email">Email Address<br><br>
+                <input type="email" class="email border-0 border-b-[2px]  border-b-cyan-950 bg-transparent" id="email">
+                <i class="fa-solid fa-circle-arrow-right fa-2xl " style="color: #ff0505;"></i>
+              </label>
+              <div class="space-x-5">
+                <i class="fa-brands fa-facebook fa-2xl"></i>
+                <i class="fa-brands fa-twitter fa-2xl"></i>
+                <i class="fa-brands fa-instagram fa-2xl"></i>
+              </div>
+            </nav>
+            
+          </section>
+            <p class="text-center mt-5 lg:mt-[40px]">© 2027 UIDesign.to - All rights reserved.</p>
     </footer>
 </body>
 </html>
